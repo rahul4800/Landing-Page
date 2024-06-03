@@ -1,0 +1,67 @@
+.navbar {
+    //width: 100%;
+    width: 1090px;
+    padding: 40px 175px 20px 175px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar-items {
+        display: flex;
+        align-items: center;
+        //width: 100%;
+        gap: 40px;
+
+        img {
+            width: 117px;
+            height: 34.41px;
+            color: #000000;
+            //width: 65.78px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 24px;
+
+            li {
+                font-size: 20px;
+                font-weight: 500;
+                //color: ;
+                font-family: "Clash Display";
+                line-height: 26px;
+            }
+
+            li:first-child {
+                font-size: 20px;
+                font-weight: 700;
+                //color: ;
+                font-family: "Clash Display";
+                line-height: 26px;
+                color: rgba(255, 85, 85, 1);
+            }
+        }
+
+
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 180px;
+        height: 60px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        font-family: "Clash Display";
+        background-color: rgba(0, 0, 0, 1);
+        color: white;
+    }
+
+
+}
+

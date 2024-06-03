@@ -1,0 +1,213 @@
+.details-container{
+    
+   margin-top: -10rem;
+
+    .features{
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        .imgs{
+            img{
+                position: relative;
+            }
+            .back-img{
+                position: absolute;
+                left: 0;
+                z-index: -1;
+            }
+        }
+
+    
+        .detail{
+
+            // position: relative;
+            // .back2-img{
+            //     position: absolute;
+            //     //right: 0;
+            //     top: -10px;
+            //     rotate: 180deg;
+            // }
+            
+            h6{
+                width: 116px;
+                height: 28px;
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 500;
+                font-family: "Clash Display";
+                text-transform: capitalize;
+                letter-spacing: 16%;
+                color: rgba(255, 85, 85, 1);
+            }
+
+            h2{
+                width: 359px;
+                height: 48px;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                font-family: "Clash Display";
+                margin-bottom: 32px;
+            }
+
+            span{
+                width: 175px;
+                height: 28px;
+                font-size: 18px;
+                font-weight: 600;
+                font-family:"Clash Display" ;
+                color: rgba(0, 0, 0, 1);
+                margin-bottom: 12px;
+
+            }
+            p{
+                width: 638px;
+                height: 56px;
+                opacity: 50%;
+                font-size: 18px;
+                font-weight: 500;
+                font-family: "Clash Display";
+                line-height: 28px;
+                color: rgba(0, 0, 0, 1);
+                margin-bottom: 32px;
+                
+            }
+        }
+
+       
+    }
+
+    .advantage-container{
+        width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -8rem;
+        margin-left: 100px;
+
+        .advantage{
+            margin-top: -8rem;
+            
+            .heading{
+                width: 470px;
+                height: 80px;
+                margin-bottom: 32px;
+                span{
+                    width: 154px;
+                    height: 28px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: "Clash Display";
+                    line-height: 28px;
+                    color: rgba(255, 85, 85, 1);
+                    letter-spacing: 5px;
+
+                    
+                }
+
+                h2{
+                    width: 100%;
+                    font-size: 48px;
+                    line-height: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    color: rgba(0, 0, 0, 1);
+
+                }
+
+            }
+
+            .down{
+                width: 336px;
+                height: 48px;
+                >span{
+                    display: flex;
+                    align-items: center;
+                    //width: 273px;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    margin-bottom: 23px;
+                }
+                .bell-icon{
+                    width: 24px;
+                    height: 24px;
+                    //color: rgba(255, 85, 85, 1);
+                    border: 2px solid rgba(255, 255, 255, 1);
+                    color: rgba(255, 85, 85, 1);
+                    //background-color: rgba(255, 85, 85, 1);
+                }
+                >p{
+                    width: 535px;
+                    height: 140px;
+                    font-size: 18px;
+                    font-family: "Clash Display";
+                    line-height: 28px;
+                    font-weight: 500;
+                    opacity: 50%;
+                }
+            }
+        }
+
+        
+    }
+
+    .custom-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: -8rem;
+        //margin-left: 50px;
+
+        .left-img{
+            .image{
+                position: relative;
+            }
+            .back3-img{
+                position: absolute;
+                //left: 0;
+                z-index: -1;
+            }
+        }
+       
+
+        .custom-right{
+
+            .custom-heading{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 33px;
+
+                >span{
+                    width: 262px;
+                    height: 28px;
+                    font-size: 28px;
+                    font-weight: 600;
+                    font-family: "Clash Display";
+                    line-height: 28px;
+                    color: rgba(0, 0, 0, 1);
+                }
+
+            }
+            p{
+                width: 562px;
+                height: 140px;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                color: rgba(0, 0, 0, 1);
+                opacity: 50%;
+            }
+        }
+    }
+}
+
+// @media (max-width:1025px) {
+//     .advantage-container{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
